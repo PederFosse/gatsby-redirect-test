@@ -1,5 +1,5 @@
-exports.createPages = ({actions}) => {
-    const {createRedirect} = actions;
+exports.createPages = ({ actions }) => {
+  const { createRedirect } = actions;
 
-    createRedirect({ fromPath: '/old-url', toPath: '/presse', isPermanent: true });  
-}
+  createRedirect({ fromPath: '/nowhere', toPath: '/', isPermanent: true });
+};
